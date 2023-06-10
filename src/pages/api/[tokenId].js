@@ -3,7 +3,7 @@ export default function handler(req, res) {
   const tokenId = req.query.tokenId;
   // As all the images are uploaded on github, we can extract the images from github directly.
   const image_url =
-    "https://github.com/Janitherange/my-app-nft-collection/tree/1395483a32347675939d5b1ad78ddaac9dc5c056/public/cryptodevs";
+    "https://raw.githubusercontent.com/Janitherange/my-app-nft-collection/master/public/cryptodevs/";
   // The api is sending back metadata for a Crypto Dev
   // To make our collection compatible with Opensea, we need to follow some Metadata standards
   // when sending back the response from the api
